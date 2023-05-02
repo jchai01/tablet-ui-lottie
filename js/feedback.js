@@ -13,35 +13,35 @@ lottie.loadAnimation({
 });
 
 lottie.loadAnimation({
-  container: poor, // the dom element that will contain the animation
+  container: poor, 
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '../tablet_assets/lottie-icons/poor.json' // the path to the animation json
+  path: '../tablet_assets/lottie-icons/poor.json'
 });
 
 lottie.loadAnimation({
-  container: neutral, // the dom element that will contain the animation
+  container: neutral,
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '../tablet_assets/lottie-icons/neutral.json' // the path to the animation json
+  path: '../tablet_assets/lottie-icons/neutral.json'
 });
 
 lottie.loadAnimation({
-  container: good, // the dom element that will contain the animation
+  container: good,
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '../tablet_assets/lottie-icons/good.json' // the path to the animation json
+  path: '../tablet_assets/lottie-icons/good.json'
 });
 
 lottie.loadAnimation({
-  container: excellent, // the dom element that will contain the animation
+  container: excellent,
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '../tablet_assets/lottie-icons/excellent.json' // the path to the animation json
+  path: '../tablet_assets/lottie-icons/excellent.json'
 });
 
 veryPoor.addEventListener('click', function() {

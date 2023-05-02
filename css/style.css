@@ -1,9 +1,70 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F1F6FD;
+}
+
+.title {
+  margin: 30px 0; /* top/bottom, left/right */
+}
+
+.home-title {
+  margin-bottom: 10px; /* top/bottom, left/right */
+}
+
+.home-subtitle {
+  margin: 20px 0;  
+  font-size: large;
+  font-weight: 400;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.icon-card{
+  flex: auto;
+  width: 100%;
+}
+
+.home-icon-card{
+  flex: auto;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 #icon-container {
   display: flex;
   justify-content: space-evenly;
   gap: 15px;
 }
 
+.icon-description {
+  margin-top: 0.5em;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.home-icon-description {
+  margin-top: 0.5em;
+  font-size: medium;
+  background-color: white;
+}
+
 .icon {
-  flex: 1;
+  flex: auto;
+}
+#thank-you-image {
+  width: 30%;
+}
+img {
+  width: 100%;
+}
+
+.home-paragraph {
+  color: #003eaa;
 }
