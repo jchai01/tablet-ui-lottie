@@ -18,9 +18,10 @@
 }
 
 .container{
-  width: 70%;
-  margin: auto;
+  width: 80%;
   text-align: center;
+  margin: auto;
+  margin-top: 5em;
 }
 
 .icon-card{
@@ -40,7 +41,7 @@
 #icon-container {
   display: flex;
   justify-content: space-evenly;
-  gap: 15px;
+  gap: 3em;
 }
 
 .icon-description {
@@ -58,9 +59,16 @@
 .icon {
   flex: auto;
 }
+
 #thank-you-image {
   width: 30%;
 }
+
+#logo {
+  width: 30%;
+  margin-top: 5em;
+}
+
 img {
   width: 100%;
 }
