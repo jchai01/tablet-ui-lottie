@@ -60,6 +60,7 @@ good.addEventListener('click', function() {
   alert("selected good");
 });
 
-excellent.addEventListener('click', function() {
-  alert("selected excellent");
+excellent.addEventListener('click', async () => {
+    await fetch('http://localhost:1234/test')
+    .then(response => console.log(response));
 });
