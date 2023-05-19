@@ -1,3 +1,9 @@
+setTimeout(
+    () => {
+        window.location.replace("home.html");
+    }, 5000
+);
+
 let veryPoor = document.querySelector('#very-poor');
 let poor = document.querySelector('#poor');
 let neutral = document.querySelector('#neutral');
@@ -44,23 +50,42 @@ lottie.loadAnimation({
   path: '../tablet_assets/lottie-icons/excellent.json'
 });
 
-veryPoor.addEventListener('click', function() {
-  alert("selected very poor");
+veryPoor.addEventListener('click', async () => {
+    await fetch('http://localhost:1234/test')
+    .then((response) => {
+      console.log(response)
+      window.location.href = "thankyou.html";
+    });
 });
 
-poor.addEventListener('click', function() {
-  alert("selected poor");
+poor.addEventListener('click', async () => {
+    await fetch('http://localhost:1234/test')
+    .then((response) => {
+      console.log(response)
+      window.location.href = "thankyou.html";
+    });
 });
 
-neutral.addEventListener('click', function() {
-  alert("selected neutral");
+neutral.addEventListener('click', async () => {
+    await fetch('http://localhost:1234/test')
+    .then((response) => {
+      console.log(response)
+      window.location.href = "thankyou.html";
+    });
 });
 
-good.addEventListener('click', function() {
-  alert("selected good");
+good.addEventListener('click', async () => {
+    await fetch('http://localhost:1234/test')
+    .then((response) => {
+      console.log(response)
+      window.location.href = "thankyou.html";
+    });
 });
 
 excellent.addEventListener('click', async () => {
     await fetch('http://localhost:1234/test')
-    .then(response => console.log(response));
+    .then((response) => {
+      console.log(response)
+      window.location.href = "thankyou.html";
+    });
 });
