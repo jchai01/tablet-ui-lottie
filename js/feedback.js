@@ -51,41 +51,41 @@ lottie.loadAnimation({
 });
 
 veryPoor.addEventListener('click', async () => {
+    window.location.href = "thankyou.html";
     await fetch('http://localhost:1234/test')
     .then((response) => {
       console.log(response)
-      window.location.href = "thankyou.html";
     });
 });
 
 poor.addEventListener('click', async () => {
+    window.location.href = "thankyou.html";
     await fetch('http://localhost:1234/test')
     .then((response) => {
       console.log(response)
-      window.location.href = "thankyou.html";
     });
 });
 
 neutral.addEventListener('click', async () => {
+    window.location.href = "thankyou.html";
     await fetch('http://localhost:1234/test')
     .then((response) => {
       console.log(response)
-      window.location.href = "thankyou.html";
     });
 });
 
 good.addEventListener('click', async () => {
+    window.location.href = "thankyou.html";
     await fetch('http://localhost:1234/test')
     .then((response) => {
       console.log(response)
-      window.location.href = "thankyou.html";
     });
 });
 
 excellent.addEventListener('click', async () => {
+    window.location.href = "thankyou.html";
     await fetch('http://localhost:1234/test')
     .then((response) => {
       console.log(response)
-      window.location.href = "thankyou.html";
     });
 });
